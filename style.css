@@ -5,3 +5,15 @@ body{
 .text-center{
     text-align: center;
 }
+
+@media (orientation: landscape){
+    .sign{
+        width: 20%;
+    }
+}
+
+@media (orientation: portrait){
+    .sign{
+        width: 80%;
+    }
+}
